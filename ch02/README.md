@@ -6,6 +6,7 @@
 # Fuctions to make and delete directory
 - used when programmer makes directory or delete it.
 - fuctions have same name with command, `man -s 2` is for function.  
+
 |purpose|fuction|
 |-------|-------|
 |make directory| `int mkdir(const char *pathname, mode_t mode);` |
@@ -13,6 +14,7 @@
 
 # Functions to control directory
 - to control directory, functions provide to search location, to move directory and to rename directory etc.  
+
 |purpose|function|
 |-------|--------|
 |get location path| `char *getcwd(char *buf, size_t size);`|
@@ -24,6 +26,7 @@
 # Functions to read 
 - to read directory, open and close functions are required.
 - read fucntion, offset adjustment function are provided.  
+
 |purpose|function|
 |-------|--------|
 |open directory| `DIR *opendir(const char *name);`|
