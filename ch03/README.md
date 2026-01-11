@@ -1,4 +1,4 @@
-# file info search functions
+# File info search functions
 in Linux, all datas from files come from I-node. 
 struct to search file info: `strcut stat` included `<stat.h>`  
 
@@ -7,7 +7,7 @@ struct to search file info: `strcut stat` included `<stat.h>`
 |search file info|`int stat(const char *pathname, struct stat *statbuf)`|
 |search file info|`int fstat(int fd, strcut stat *statbuf)`|
 
-# file access permission functions
+# File access permission functions
 permission is written in `stat.st_mode`.
 using, pre-described constants and macro to interprete `st_mode` 
 
@@ -17,7 +17,7 @@ using, pre-described constants and macro to interprete `st_mode`
 |change file permission|`int chmod(const char *pathname, mode_t mode)`|
 |change file permission|`int fchmod(int fd, mode_t mode)`|
 
-# link functions
+# Link functions
 - link means another file to access file or directory.
 - hard link uses same I-node of original file.
 - symbolic link create sperate file. use different I-node, and save path of original file.
