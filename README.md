@@ -2,9 +2,9 @@
 this repository is to document studying of system programming.
 
 ## System info
-Ubuntu 24 LTS
-All files are uploaded from Ubunut 24 LTS
-All source codes and documents were written in VIM editor.
+- Ubuntu 24 LTS
+- All files are uploaded from Ubunut 24 LTS
+- All source codes and documents were written in VIM editor.
 
 ## Purpose of this repository
 To understand better about system programming and UNIX/LINUX.
@@ -14,3 +14,6 @@ To understand better about system programming and UNIX/LINUX.
 2. slow but steady.
 3. comprehend system programming.
 
+## Commit types.
+- [study]: to reach daily goals. eg. [study] ch02 - 27.01.20206
+- [docs]: to show update of documents.
