@@ -1,0 +1,2 @@
+hyunseop    2532    2531  0 09:29 pts/0    00:00:00 sh -c -- ps -ef | grep sshd > sshd.txt
+hyunseop    2534    2532  0 09:29 pts/0    00:00:00 grep sshd
