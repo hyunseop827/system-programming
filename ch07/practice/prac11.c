@@ -1,6 +1,5 @@
 /*
- * one program can call `fork()` multiple time, and the children also can have children. 
- * prove this, and printf PPID of children.
+ * modify code of prac10.c, to print PPID of children
  *
  */
 
@@ -23,10 +22,11 @@ int main() {
 				break;
 			case 0:
 				printf("%d: child\n",i);
-				printf("PPID: %d\n", (int)getppid());
+				printf("PID: %d, PPID: %d\n", (int)getpid(), (int)getppid());
 				break;
 			default:
-				printf("%d: parent\n",i);	
+				printf("%d: parent\n",i);
+				printf("PID: %d, PPID: %d\n", (int)getpid(), (int)getppid());
 				break;
 		}
 	}
@@ -34,5 +34,4 @@ int main() {
 	printf("end of fork()\n");
 	return 0;
 }
-
 
